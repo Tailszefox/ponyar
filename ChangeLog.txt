@@ -1,0 +1,20 @@
+﻿2011-06-14  Eugene Zatepyakin  <info@in2ar.com>
+	* added width/height properties to ASFEATReference class
+	* various performace optimizations
+
+2011-05-03  Eugene Zatepyakin  <info@in2ar.com>
+
+    * added Adobe Flash CS5 example
+	make sure u changed options in Publish Settings tab
+	Flex 4.1 SWC and higher required to compile because we use Embed() tag
+
+2011-04-27  Eugene Zatepyakin  <info@in2ar.com>
+
+    * added 'docs' folder with public method describtion
+	* small performance refactoring and code cleanup
+
+2011-04-26  Eugene Zatepyakin  <info@in2ar.com>
+
+    * improved performance in detection only scenario
+	additional performance optimizations
+	* added a link to www.in2ar.com from logo badge
