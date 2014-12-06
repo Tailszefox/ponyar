@@ -1,7 +1,7 @@
 ponyar
 ======
 
-Date de développement : 
+Date de développement : **2011**
 
 PonyAR est un jeu de réalité augmentée en Flash, basé sur le framework [IN2AR](http://www.in2ar.com/).
 
