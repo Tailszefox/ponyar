@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PonyAR</title>
+	<meta name="language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<script src="js/swfobject.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var flashvars = {
+		};
+		var params = {
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "",
+			wmode: "window"
+		};
+		var attributes = {
+			id:"ponies"
+		};
+		swfobject.embedSWF("ponies.swf", "altContent", "100%", "95%", "10.3.0", "expressInstall.swf", flashvars, params, attributes);
+	</script>
+	<style type="text/css">
+		html, body { height:100%; }
+		body { margin:0; }
+		#instructions { margin-left: 10px; }
+		#header { margin-bottom: 10px; text-align: center; font-weight: bold; }
+		li { margin-bottom: 5px; }
+	</style>
+</head>
+<body>
+	<div id="header">
+		Welcome to PonyAR! <a href="#ins">Click here</a> to get to the instructions and download the markers.
+	</div>
+
+	<div id="altContent">
+		<p>PonyAR needs Flash Player v10.3.0 or greater. Click the image below to install it:</p>
+		<p><a href="https://www.adobe.com/go/getflashplayer"><img 
+			src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" 
+			alt="Get Adobe Flash player" /></a></p>
+		<noscript><p><strong>Javascript must be enabled for this to work!</strong></p></noscript>
+	</div>
+	
+	<div id="instructions">
+		<p><strong><a name="ins">What the hay is PonyAR?</a></strong></p>
+		
+		<p>PonyAR uses augmented reality to put more ponies in your life!<br />By using your webcam and a marker, PonyAR can integrate a 3D model of Twilight Sparkle, Fluttershy, or any other pony of the mane six in what you're filming, to make it seems like they're actually there, in real life!</p>
+		
+		<p>Still have no idea what this means? Have a look at some screenshots!<br />
+		<a target="_blank" href="1.png">Screenshot 1</a> - <a target="_blank" href="2.png">Screenshot 2</a> - <a target="_blank" href="3.png">Screenshot 3</a> - <a target="_blank" href="4.png">Screenshot 4</a><br />
+		</p>
+	
+		<p><strong>Instructions</strong></p>
+		<p><em>Requirements</em>: a webcam, a relatively powerful computer, a decent Internet connexion or some patience (the SWF file is a little over 9 Mb).</p>
+		<ol>
+			<li>Get your webcam ready. I recommend using a external one for more freedom, but an integrated one is fine.</li>
+			<li>Print the image (also known as marker) corresponding to your favorite pony. If you can't decide which pony is your favorite, print all of them.<br /><a target="_blank" href="applejack/marker.jpg">Applejack</a> - <a target="_blank" href="fluttershy/marker.jpg">Fluttershy</a> - <a target="_blank" href="pinkiepie/marker.jpg">Pinkie Pie</a> - <a target="_blank" href="rainbowdash/marker.jpg">Rainbow Dash</a> - <a target="_blank" href="rarity/marker.jpg">Rarity</a> - <a target="_blank" href="twilight/marker.jpg">Twilight</a><br />
+			<em>Note:</em> If you're low on ink, you can try printing them in black and white. It shouldn't affect the results too much.<br />
+			You can even put the pictures on your phone/iPad/whatever and show it to your webcam if you really don't want to print anything, but the results won't be nearly as good, so print them if you can!
+			</li>
+			<li>Wait for the animation above to finish loading. Hopefully it won't take too long.</li>
+			<li><em>(Optional)</em> If your Flash player is outdated, you will be asked to upgrade it. Please do, having an up-to-date Flash player is important!</li>
+			<li>Once the loading is done, click "Allow" to allow Flash to use your webcam. (We kind of need it for that. Don't worry, nothing is transmitted, everything happens locally on your computer.)</li>
+			<li><em>(Optional)</em> If you have more than one webcam and Flash picked the wrong one: right-click, choose "Settings", click on the webcam icon and pick the right webcam in the list.</li>
+			<li>Get one of the markers you printed in the frame. Make sure it's not too close nor too far.</li>
+			<li>If all went well, your reality is now being augmented by ponies. Move your webcam around, try with multiple markers, whatever comes to mind!</li>
+		</ol>
+		<p>Thanks to <a target="_blank" href="http://www.in2ar.com/">IN2AR</a> for the detection framework.<br />
+		Thanks to KP-ShadowSquirrel for the <a target="_blank" href="http://kp-shadowsquirrel.deviantart.com/art/Pony-Model-Download-Center-215266264">3D models</a>.
+		</p>
+		
+		<p>If you wish to contact me, feel free to <a href="mailto:&#116;&#097;&#105;&#108;&#115;&#064;&#116;&#097;&#105;&#108;&#115;&#122;&#101;&#102;&#111;&#120;&#046;&#110;&#111;&#045;&#105;&#112;&#046;&#099;&#111;&#109;?subject=PonyAR">send me an email</a>!</p>
+		
+		<p>Have fun!</p>
+	</div>
+</body>
+</html>
