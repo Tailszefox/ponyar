@@ -2,4 +2,5 @@ html, body { height:100%; }
 body { margin:0; }
 #instructions { margin-left: 10px; }
 #header { margin-bottom: 10px; text-align: center; font-weight: bold; }
+#altContent { margin-bottom: 10px; text-align: center; font-weight: bold; }
 li { margin-bottom: 5px; }
